@@ -56,9 +56,7 @@ export function Contact() {
               <Mail className="size-5 text-gold" />
               <span>
                 <span className="block text-sm font-semibold text-warm">Email</span>
-                <span className="block text-sm text-warm/65">
-                  {CONTACT.email} · {CONTACT.emailAlt}
-                </span>
+                <span className="block text-sm text-warm/65">{CONTACT.email}</span>
               </span>
             </a>
             <a
