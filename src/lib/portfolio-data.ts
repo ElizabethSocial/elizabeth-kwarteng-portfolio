@@ -10,7 +10,6 @@ export const WHATSAPP_URL =
 
 export const CONTACT = {
   email: "eskwart01@gmail.com",
-  emailAlt: "lizgishq@gmail.com",
   location: "Teshie Nungua Estates, Accra, Ghana",
   linkedin: "https://www.linkedin.com/",
 };
