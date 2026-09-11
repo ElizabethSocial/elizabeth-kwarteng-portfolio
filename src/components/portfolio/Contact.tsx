@@ -1,5 +1,5 @@
 import { useState, type FormEvent } from "react";
-import { Linkedin, Mail, MapPin, MessageCircle, Phone, Send } from "lucide-react";
+import { Linkedin, Mail, MapPin, MessageCircle, Send } from "lucide-react";
 import { toast } from "sonner";
 import { CONTACT, WHATSAPP_URL } from "@/lib/portfolio-data";
 import { SectionHeading } from "./SectionHeading";
