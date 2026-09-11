@@ -9,8 +9,6 @@ export const WHATSAPP_URL =
   );
 
 export const CONTACT = {
-  phone: "+233 20 903 0906",
-  phoneLocal: "0209030906",
   email: "eskwart01@gmail.com",
   emailAlt: "lizgishq@gmail.com",
   location: "Teshie Nungua Estates, Accra, Ghana",

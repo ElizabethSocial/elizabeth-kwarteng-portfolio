@@ -45,7 +45,7 @@ export function CvModal({ open, onClose }: { open: boolean; onClose: () => void 
               Digital Marketing Consultant &amp; Strategic Communications Professional
             </p>
             <p className="mt-3 text-sm text-slate-deep">
-              {CONTACT.email} · {CONTACT.emailAlt} · {CONTACT.phone} · {CONTACT.location}
+              {CONTACT.email} · {CONTACT.emailAlt} · {CONTACT.location}
             </p>
           </header>
 

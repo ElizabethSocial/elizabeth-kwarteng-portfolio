@@ -1,5 +1,5 @@
 import { useState, type FormEvent } from "react";
-import { Linkedin, Mail, MapPin, MessageCircle, Phone, Send } from "lucide-react";
+import { Linkedin, Mail, MapPin, MessageCircle, Send } from "lucide-react";
 import { toast } from "sonner";
 import { CONTACT, WHATSAPP_URL } from "@/lib/portfolio-data";
 import { SectionHeading } from "./SectionHeading";
@@ -46,7 +46,7 @@ export function Contact() {
               <MessageCircle className="size-5 text-emerald-brand" />
               <span>
                 <span className="block text-sm font-semibold text-warm">WhatsApp</span>
-                <span className="block text-sm text-warm/65">{CONTACT.phone}</span>
+                <span className="block text-sm text-warm/65">Start a direct conversation</span>
               </span>
             </a>
             <a
@@ -59,16 +59,6 @@ export function Contact() {
                 <span className="block text-sm text-warm/65">
                   {CONTACT.email} · {CONTACT.emailAlt}
                 </span>
-              </span>
-            </a>
-            <a
-              href={`tel:+233209030906`}
-              className="flex items-center gap-4 rounded-xl border border-warm/12 p-4 transition hover:border-gold/50"
-            >
-              <Phone className="size-5 text-gold" />
-              <span>
-                <span className="block text-sm font-semibold text-warm">Phone</span>
-                <span className="block text-sm text-warm/65">{CONTACT.phoneLocal}</span>
               </span>
             </a>
             <a
